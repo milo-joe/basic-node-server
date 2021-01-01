@@ -1,0 +1,61 @@
+.itemContainer{
+    color: #fff;
+    width: 400px;
+    height: 50px;
+    margin: 0px auto;
+    width: 95%;
+    height: 120px;
+    background-color: transparent;
+    border: 1px solid #ffa45b;
+    position: relative;
+}
+
+.holder{
+    grid-area: y;
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.posi{
+    margin-left: 10px;
+    height: 50%;
+    margin: 20px;  
+    border: 0;
+    position: absolute;
+    left: 70px;
+    border-radius: 3px;
+
+
+}
+
+.desci{
+    resize: none;
+    border: 0;
+    border-radius: 3px;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    left: 90px;
+
+}
+.dp{
+    margin-top: -10px;
+}
+
+
+.trash{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.check{
+    position: absolute;
+    top: 16px;
+    right: 62px;
+    opacity: 30%;
+
+}

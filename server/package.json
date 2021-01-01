@@ -1,0 +1,23 @@
+{
+  "name": "mine-saver",
+  "version": "1.0.0",
+  "description": "simple server to save minecraft locations and descriptions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "mivecraft",
+    "db",
+    "saver"
+  ],
+  "author": "joe",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}

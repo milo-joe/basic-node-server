@@ -1,0 +1,85 @@
+body{
+  background-color: #ffa45b;
+}
+
+.container{
+  background-color: #ffda77;
+  margin: 10px auto;
+
+  min-height: 200px;
+  width: 400px;
+
+}
+
+#add-form{
+  min-height: 150px;
+  display: grid;
+  grid-template-areas: "a a b"
+  "c c c"
+  "c c c";
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+
+#add-form input:focus{
+  outline: none;
+}
+
+#header{
+  width: 390px;
+  margin: 0 auto;
+  height: 50px;
+  position: relative;
+  margin-bottom: -5px;
+
+}
+
+#posid{
+  grid-area: a;
+  height: 30px;
+  margin: 16px;
+  color: rgb(71, 0, 0);
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 0;
+  position: absolute;
+  left: 8px;
+  top: 16px;
+}
+
+#sub{
+  grid-area: b;
+  height: 50px;
+  width: 50px;
+  border: 0;
+  outline: none;
+  border-radius: 3px;
+  right: 0px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  background-color: #aee6e6a6;
+
+}
+
+#desc{
+  grid-area: c;
+  width: 95%;
+  margin: 5px auto;
+  resize: none;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.itemHolder{
+  margin: 5px auto;
+}
+
+ItemsList{
+  background-color: red;
+}
